@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libhw8_library.a  CMakeFiles/hw8_library.dir/temp.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libhw8_library.a

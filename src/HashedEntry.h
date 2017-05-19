@@ -28,3 +28,33 @@ void HashedEntry<KeyType, ItemType>::operator=(const ItemType& newItem){
     this->setItem(newItem);
 
 };
+
+//
+template < class KeyType, class ItemType>
+HashedEntry < KeyType, ItemType> ::HashedEntry() {
+
+};
+
+template < class KeyType, class ItemType>
+HashedEntry<KeyType, ItemType>::HashedEntry(KeyType searchKey, ItemType newEntry){
+    this -> setKey(searchKey);
+    this -> setItem(newEntry);
+    this -> setNext(nullptr);
+};
+
+template < class KeyType, class ItemType>
+HashedEntry<KeyType, ItemType>::HashedEntry(KeyType searchKey, ItemType newEntry, HashedEntry<KeyType, ItemType> *nextEntryPtr){
+    this -> setKey(searchKey);
+    this -> setItem(newEntry);
+    this -> setNext(nextEntryPtr);
+};
+
+template <class KeyType, class ItemType>
+void HashedEntry <KeyType, ItemType>::setNext(HashedEntry <KeyType, ItemType> *nextEntryPtr) {
+    nextPtr = nextEntryPtr;
+};
+
+template <class KeyType, class ItemType>
+HashedEntry<KeyType, ItemType> *HashedEntry<KeyType, ItemType> ::getNext() const {
+    return this ->nextPtr;
+}

@@ -1,3 +1,4 @@
+
 #pragma once
 
 #include "DictionaryInterface.h"
@@ -61,7 +62,17 @@ int HashedDictionary<KeyType, ItemType>::getHashIndex(const KeyType &key) const 
 
 template<class KeyType, class ItemType>
 void HashedDictionary<KeyType, ItemType>::destroyDictionary() {
-    //TODO
+
+
+    for (int i = 0; i < hashTableSize; i++) //implement a for loop to set the integer i of the hashtable array to null pointer
+
+    {
+        hashTable[i] = nullptr;
+
+    }
+
+    itemCount = 0;
+
 }
 
 template<class KeyType, class ItemType>
@@ -87,32 +98,131 @@ void HashedDictionary<KeyType, ItemType>::clear() {
 
 template<class KeyType, class ItemType>
 bool HashedDictionary<KeyType, ItemType>::isEmpty() const {
-    //TODO
+
+    if (getNumberOfItems() == 0) // If hashed dictionary for sure equals 0 then return true if not return false
+
+    {
+        return true;
+
+    }
+
+    else
+
+    {
+
+        return false;
+    }
+
 }
 
 template<class KeyType, class ItemType>
 int HashedDictionary<KeyType, ItemType>::getNumberOfItems() const {
-    //TODO
+
+    int x = 0;
+
+    for (int y = 0; y < hashTableSize; y++) //nested for loop to get number of items, traverse through and adds y and x integers
+
+    {
+
+        if (hashTable[y] != nullptr)
+
+        {
+
+            x++;
+
+            while (hashTable[y] -> getNext() != nullptr)
+
+            {
+
+                x++;
+
+            }
+        }
+    }
+    return x++;
 }
 
 template<class KeyType, class ItemType>
 bool HashedDictionary<KeyType, ItemType>::add(const KeyType &searchKey, const ItemType &newItem) {
-    //TODO
+
+    HashedEntry < KeyType, ItemType > *entryToAddPtr = new HashedEntry < KeyType, ItemType > (searchKey, newItem);
+
+    int hashIndex = getHashIndex(searchKey);
+    if (hashTable[hashIndex] == nullptr)
+    {
+        hashTable[hashIndex] = entryToAddPtr;
+    }
+    else
+    {
+        entryToAddPtr->setNext(hashTable[hashIndex]);
+        hashTable[hashIndex] = entryToAddPtr;
+    }
+    return true;
 }
+
+
+
 
 template<class KeyType, class ItemType>
 bool HashedDictionary<KeyType, ItemType>::remove(const KeyType &searchKey) {
-    //TODO
+
+    bool removal = false;
+
+    int hashIndex = getHashIndex(searchKey);
+
+    if(hashTable[hashIndex] != nullptr) //if else statement to remove entries in the hashedDictionary
+    {
+        if (searchKey == hashTable[hashIndex] -> getKey())
+        {
+            hashTable[hashIndex] = hashTable[hashIndex] -> getNext();
+
+            removal = true;
+        }
+        else
+        {
+            auto prevPtr = hashTable[hashIndex];
+            auto curPtr = prevPtr -> getNext();
+            while ((curPtr != nullptr) && !removal)
+            {
+                if (searchKey == curPtr ->getKey())
+                {
+                    prevPtr -> setNext(curPtr -> getNext());
+                    removal = true;
+                }
+                else
+                {
+                    prevPtr = curPtr;
+                    curPtr = curPtr -> getNext();
+                }
+            }
+        }
+
+    }
+    return removal;
+
+
+
 }
 
 template<class KeyType, class ItemType>
 ItemType HashedDictionary<KeyType, ItemType>::getItem(const KeyType &searchKey) const {
-    //TODO
+
+    while (hashTable[searchKey] == nullptr)
+
+    {
+
+        throw std::exception(); //throw an exception for searchKey in hash table
+    }
+
+    return hashTable [getHashIndex (searchKey)] -> getItem();
+
 }
 
 template<class KeyType, class ItemType>
 bool HashedDictionary<KeyType, ItemType>::contains(const KeyType &searchKey) const {
-    //TODO
+
+    return hashTable [searchKey] != nullptr;  //returns the hashtable searchKey if it does not equal the nullptr
+
 }
 
 template<class KeyType, class ItemType>

@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hw8"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\hw8_tests\;CMake Files\hw8_tests\lib\;CMake Files\hw8_tests\lib\gtest-1.7.0\;CMake Files\hw8_tests\lib\gtest-1.7.0\cmake\;CMake Files\hw8_tests\basic_tests\;CMake Files\hw8_tests\hashed_entry_tests\;CMake Files\hw8_tests\hashed_dictionary_basicTests\;CMake Files\hw8_tests\hashed_dictionary_addTest\;CMake Files\hw8_tests\hashed_dictionary_removeTest\;CMake Files\hw8_tests\hashed_dictionary_miscTest\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw8_run">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 hw8_run"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw8_run/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 hw8_run/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw8_library">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/src/libhw8_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 hw8_library"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw8_library/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/src/libhw8_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 hw8_library/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runBasicHW8Tests">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/basic_tests/runBasicHW8Tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/basic_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/basic_tests/Makefile&quot;  VERBOSE=1 runBasicHW8Tests"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/basic_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/basic_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/basic_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runBasicHW8Tests/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/basic_tests/runBasicHW8Tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/basic_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/basic_tests/Makefile&quot;  VERBOSE=1 runBasicHW8Tests/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/basic_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/basic_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/basic_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW8HashedEntryTests_1">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_entry_tests/runHW8HashedEntryTests_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_entry_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_entry_tests/Makefile&quot;  VERBOSE=1 runHW8HashedEntryTests_1"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_entry_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_entry_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_entry_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW8HashedEntryTests_1/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_entry_tests/runHW8HashedEntryTests_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_entry_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_entry_tests/Makefile&quot;  VERBOSE=1 runHW8HashedEntryTests_1/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_entry_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_entry_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_entry_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW8HashedDictionaryConstructorTests_2">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_basicTests/runHW8HashedDictionaryConstructorTests_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_basicTests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_basicTests/Makefile&quot;  VERBOSE=1 runHW8HashedDictionaryConstructorTests_2"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_basicTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_basicTests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_basicTests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW8HashedDictionaryConstructorTests_2/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_basicTests/runHW8HashedDictionaryConstructorTests_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_basicTests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_basicTests/Makefile&quot;  VERBOSE=1 runHW8HashedDictionaryConstructorTests_2/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_basicTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_basicTests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_basicTests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW8AddTests_3">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_addTest/runHW8AddTests_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_addTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_addTest/Makefile&quot;  VERBOSE=1 runHW8AddTests_3"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_addTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_addTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_addTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW8AddTests_3/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_addTest/runHW8AddTests_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_addTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_addTest/Makefile&quot;  VERBOSE=1 runHW8AddTests_3/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_addTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_addTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_addTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW8RemoveTests_4">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_removeTest/runHW8RemoveTests_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_removeTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_removeTest/Makefile&quot;  VERBOSE=1 runHW8RemoveTests_4"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_removeTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_removeTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_removeTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW8RemoveTests_4/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_removeTest/runHW8RemoveTests_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_removeTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_removeTest/Makefile&quot;  VERBOSE=1 runHW8RemoveTests_4/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_removeTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_removeTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_removeTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW8MiscTests_5">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_miscTest/runHW8MiscTests_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_miscTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_miscTest/Makefile&quot;  VERBOSE=1 runHW8MiscTests_5"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_miscTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_miscTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_miscTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runHW8MiscTests_5/fast">
+				<Option output="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_miscTest/runHW8MiscTests_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_miscTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/src"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_miscTest/Makefile&quot;  VERBOSE=1 runHW8MiscTests_5/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_miscTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_miscTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/tommythemoney/Documents/TommyL123-hw8/cmake-build-debug/hw8_tests/hashed_dictionary_miscTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/basic_tests/basic_check.cpp">
+			<Option target="runBasicHW8Tests"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_dictionary_addTest/hashed_dictionary_addTest.cpp">
+			<Option target="runHW8AddTests_3"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_dictionary_basicTests/hashed_dictionary_basicTest.cpp">
+			<Option target="runHW8HashedDictionaryConstructorTests_2"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_dictionary_miscTest/hashed_dictionary_miscTest.cpp">
+			<Option target="runHW8MiscTests_5"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_dictionary_removeTest/hashed_dictionary_removeTest.cpp">
+			<Option target="runHW8RemoveTests_4"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_entry_tests/hashed_entry_check.cpp">
+			<Option target="runHW8HashedEntryTests_1"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/main.cpp">
+			<Option target="hw8_run"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/src/DictionaryInterface.h">
+			<Option target="hw8_library"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/src/Entry.h">
+			<Option target="hw8_library"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/src/HashedDictionary.h">
+			<Option target="hw8_library"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/src/HashedEntry.h">
+			<Option target="hw8_library"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/src/temp.cpp">
+			<Option target="hw8_library"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\hw8_tests\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\hw8_tests\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\hw8_tests\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/basic_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\basic_tests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/basic_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\basic_tests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_entry_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\hashed_entry_tests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_entry_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\hashed_entry_tests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_dictionary_basicTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\hashed_dictionary_basicTests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_dictionary_basicTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\hashed_dictionary_basicTests\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_dictionary_addTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\hashed_dictionary_addTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_dictionary_addTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\hashed_dictionary_addTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_dictionary_removeTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\hashed_dictionary_removeTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_dictionary_removeTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\hashed_dictionary_removeTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_dictionary_miscTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\hashed_dictionary_miscTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/hw8_tests/hashed_dictionary_miscTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hw8_tests\hashed_dictionary_miscTest\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/tommythemoney/Documents/TommyL123-hw8/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
