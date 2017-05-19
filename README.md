@@ -3,8 +3,10 @@
 # First-Name Last-Name
 
 TODO - Update your name in this readme.
+// Tommy Lik 916321164
 
 TODO - Add a badge from travis CI here
+// [![Build Status](https://travis-ci.com/csc340-spring-2017/TommyL123-hw8.svg?token=t6yXgSazaGDsBYommHFk&branch=master)](https://travis-ci.com/csc340-spring-2017/TommyL123-hw8)
 
 ##Problem statement:
 Implement a Hashed Dictionary. You will have to first implement the necessary functions in `HashedEntry.h` (which inherits from `Entry.h`). The Dictionary must maintain an array of HashedEntries. 
